@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f8ff;
+}
+
+/* Estilo común para todos los contenedores */
+.contenedor {
+    background-color: #ffffff; /* Color de fondo */
+    border: 3px solid #0077b6; /* Borde con otro color */
+    padding: 20px;             /* Padding */
+    margin-bottom: 30px;       /* Margen */
+    border-radius: 8px;
+}
+
+/* Contenedor 1: Menú */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: #023e8a;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00b4d8;
+}
+
+.img-principal {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.img-cuerpo {
+    width: 300px;
+    margin: 15px auto;
+    display: block;
+}
+
+h1, h2 {
+    color: #0077b6;
+}
+
+iframe, img {
+    max-width: 100%;
+}
